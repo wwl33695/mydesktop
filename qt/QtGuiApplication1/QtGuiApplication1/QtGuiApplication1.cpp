@@ -45,7 +45,7 @@ bool QtGuiApplication1::eventFilter(QObject *target, QEvent *e)
 			QKeyEvent *ke = static_cast<QKeyEvent *>(e);
 			if (ke->key() == Qt::Key_Tab) {
 				// special tab handling here
-				return true;
+				msgbox("eventFilter Key_Tab");
 			}
 		}
 		else if (e->type() == QEvent::MouseButtonPress) {
