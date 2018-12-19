@@ -9,7 +9,7 @@ LINK_FLAGS = -w -g -D__STDC_CONSTANT_MACROS
 LIBS =  -lstdc++ -lpthread -lwx_baseu-3.0 -lwx_mswu_core-3.0
 #########################################################
 
-PROGRAM = player
+PROGRAM = window
 
 OBJS = 
 
