@@ -15,7 +15,6 @@ public:    // 主窗口类的构造函数
     wxTextCtrl * tc;
 
 	void OnOpenFont(wxCommandEvent & WXUNUSED(event));
-    wxStaticText * st;
 
     enum{ID_FONTDIALOG};
 };
